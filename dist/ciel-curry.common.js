@@ -1,0 +1,2 @@
+!function(n,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):(n=n||self,function(){var t=n["ciel-curry"],r=n["ciel-curry"]=e();r.noConflict=function(){return n["ciel-curry"]=t,r}}())}(this,function(){"use strict";return{curry:function(n,e){return function(t){return function(r){return n(e(t,r),r)}}}}});
+//# sourceMappingURL=ciel-curry.common.js.map
